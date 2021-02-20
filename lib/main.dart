@@ -1,5 +1,4 @@
 import 'package:camera_deep_ar/camera_deep_ar.dart';
-import 'package:deep_ar_flutter_example/keys.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -42,8 +41,8 @@ class _MyAppState extends State<MyApp> {
                 print("Video Recorded @ $path");
               },
               //Enter the App key generate from Deep AR
-              androidLicenceKey: androidLicenceKey,
-              iosLicenceKey: iosLicenceKey,
+              androidLicenceKey: '6ae298f4b1640894bbb87a48dbc769c322903a73befc5104f38a99b6538f4ad5be6c7f82a7315b2b',
+              iosLicenceKey: 'b90fc1bb290f86704f43f6be4c60b866c6b3724b6d11084b6be11752a774c62329cbae2743121313',
               cameraDeepArCallback: (c) async {
                 cameraDeepArController = c;
                 setState(() {});
