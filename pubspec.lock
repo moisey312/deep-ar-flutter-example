@@ -18,9 +18,11 @@ packages:
   camera_deep_ar:
     dependency: "direct main"
     description:
-      name: camera_deep_ar
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "2161b9a95020f2d7e8ae4369512d250a1ba87532"
+      url: "https://github.com/smenateam/CameraDeepAR.git"
+    source: git
     version: "0.0.1"
   characters:
     dependency: transitive
